@@ -6,6 +6,8 @@
 * Add TLS support for `io.l5d.httpController` and `io.l5d.mesh`.
 * Add support for HTTP/2 tracing.
 * Cache dtab observations in the io.l5d.consul store.
+* Modified `io.l5d.mesh` and `io.l5d.thriftNameInterpreter` default serve addresses from 0.0.0.0 to 127.0.0.1.
+* Modified linkerd admin and namerd admin default serve addresses from 0.0.0.0 to 127.0.0.1.
 
 ## 1.0.2 2017-05-12
 
